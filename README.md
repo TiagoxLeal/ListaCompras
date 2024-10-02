@@ -1,30 +1,46 @@
-# Shopping List
+# Lista de Compras
 
-This is a simple command-line program in C for managing a shopping list using an SQLite database.
+Este é um programa simples de linha de comando em C para gerenciar uma lista de compras usando um banco de dados SQLite.
 
-## Features
+## Funcionalidades
 
-- Add items to the shopping list.
-- Display all items in the shopping list.
-- Store items and their quantities in an SQLite database.
+- Adicionar itens à lista de compras.
+- Exibir todos os itens da lista de compras.
+- Armazenar itens e suas quantidades em um banco de dados SQLite.
 
-## Prerequisites
+## Pré-requisitos
 
-- **C Compiler**: Make sure you have a C compiler installed (e.g., `gcc`).
-- **SQLite3**: Install the SQLite3 development library.
+- **C Compiler**: Certifique-se de ter um compilador de C instalado. Por exemplo, `gcc`.
+- **SQLite3**: Instale a biblioteca de desenvolvimento SQLite3.
 
-### Installing SQLite3
+### Instalação do SQLite3
 
-**For Ubuntu/Debian:**
+**Para Ubuntu/Debian:**
 ```bash
-sudo apt-get update
-sudo apt-get install libsqlite3-dev
+$ sudo apt-get update
+$ sudo apt-get install libsqlite3-dev
 ```
 
-**For Fedora:**
+**Para Fedora:**
 ```bash
-sudo dnf install sqlite-devel
+$ sudo dnf install sqlite-devel
 ```
 
+### Compilação e execução
 
+**Clone o repositório para sua máquina local:**
 
+```bash
+$ git clone https://github.com/seu-usuario/lista-de-compras.git
+$ cd lista-de-compras
+```
+
+**Compile o código usando gcc:**
+```bash
+$ gcc -o lista_compras lista_compras.c -lsqlite3
+```
+
+**Execute o programa:**
+```bash
+$ ./lista_compras
+```
