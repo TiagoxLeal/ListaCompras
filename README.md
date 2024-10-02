@@ -44,3 +44,8 @@ $ gcc -o lista_compras lista_compras.c -lsqlite3
 ```bash
 $ ./lista_compras
 ```
+
+![Captura de tela de 2024-10-02 19-05-49](https://github.com/user-attachments/assets/bbfbf3fc-2ffb-48d5-b905-158700c0a7c2)
+
+![Captura de tela de 2024-10-02 19-07-26](https://github.com/user-attachments/assets/85746fc3-ab4d-4886-bb32-a4a068587565)
+
